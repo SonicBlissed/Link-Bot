@@ -1,22 +1,40 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import {links} from './links';
+// import Iframe from 'react-iframe'
+
+
+
+
+const handleSubmit = e => {
+  e.preventDefault();
+  console.log('Commencing...')
+  let i = 0
+  while (i < 134) {
+    task(i);
+    i++;
+  }
+  function task(i) {
+    setTimeout(function() {
+     window.open(links[i]);
+    }, 1000 * i);
+  }
+}
+
 
 function App() {
+ 
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          Click the button to commence leveling
+       </p>
+
+        <button onClick={handleSubmit}>Attack</button>
+     
       </header>
     </div>
   );
