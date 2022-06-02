@@ -1,6 +1,3 @@
-
-
-
 export const links = [
 'http://www.samuraioflegend.com/attack.php?ID=940247', 
 'http://www.samuraioflegend.com/attack.php?ID=940247&sc=X',
@@ -54,10 +51,6 @@ export const links = [
 'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=931474&wepid=3066&ds=9',
 'http://www.samuraioflegend.com/attacktake.php?ID=931474',
 'http://www.samuraioflegend.com/crystaltemple.php?spend=refill',
-'http://www.samuraioflegend.com/attack.php?ID=991704',
-'http://www.samuraioflegend.com/attack.php?ID=991704&sc=X',
-'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=991704&wepid=3066&ds=9',
-'http://www.samuraioflegend.com/attacktake.php?ID=991704',
 'http://www.samuraioflegend.com/attack.php?ID=779988',
 'http://www.samuraioflegend.com/attack.php?ID=779988&sc=X',
 'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=779988&wepid=3066&ds=9',
@@ -97,10 +90,10 @@ export const links = [
 'http://www.samuraioflegend.com/attack.php?ID=848282&sc=X',
 'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=848282&wepid=3066&ds=9',
 'http://www.samuraioflegend.com/attacktake.php?ID=848282',
-'http://www.samuraioflegend.com/attack.php?ID=1115342',
-'http://www.samuraioflegend.com/attack.php?ID=1115342&sc=X',
-'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=1115342&wepid=3066&ds=9',
-'http://www.samuraioflegend.com/attacktake.php?ID=1115342',
+'http://www.samuraioflegend.com/attack.php?ID=1114337',
+'http://www.samuraioflegend.com/attack.php?ID=1114337&sc=X',
+'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=1114337&wepid=3066&ds=9',
+'http://www.samuraioflegend.com/attacktake.php?ID=1114337',
 'http://www.samuraioflegend.com/crystaltemple.php?spend=refill',
 'http://www.samuraioflegend.com/attack.php?ID=682790',
 'http://www.samuraioflegend.com/attack.php?ID=682790&sc=X',
@@ -136,5 +129,4 @@ export const links = [
 'http://www.samuraioflegend.com/attack.php?ID=59647&sc=X',
 'http://www.samuraioflegend.com/attack.php?nextstep=1&ID=59647&wepid=3066&ds=9',
 'http://www.samuraioflegend.com/attacktake.php?ID=59647',
-
 ]
